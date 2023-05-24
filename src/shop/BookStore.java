@@ -1,11 +1,11 @@
 package shop;
 
-import managers.BookManager;
-import managers.Manager;
+import manager.BookManager;
+import manager.Manager;
 import order.Price;
-import products.Age;
-import products.Language;
-import products.Product;
+import product.Age;
+import product.Language;
+import product.Product;
 
 import java.util.Comparator;
 import java.util.List;

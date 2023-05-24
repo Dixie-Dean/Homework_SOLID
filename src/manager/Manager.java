@@ -1,6 +1,6 @@
-package managers;
+package manager;
 
-import products.Product;
+import product.Product;
 
 import java.util.List;
 

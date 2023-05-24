@@ -1,10 +1,11 @@
 import customer.Customer;
 import customer.Person;
-import managers.Manager;
+import manager.Manager;
 import order.Price;
-import products.Age;
-import products.Book;
-import products.Language;
+import product.Age;
+import product.Book;
+import product.Language;
+import product.PicturedBook;
 import shop.BookSellingShop;
 import shop.BookStore;
 
@@ -71,6 +72,13 @@ public class Main {
                 Age.CHILDREN,
                 Language.ENGLISH)
         );
+
+        manager.addProduct(new PicturedBook(
+                "Harry Potter II",
+                "Great Britain",
+                new BigDecimal("8.60"),
+                Age.CHILDREN,
+                Language.ENGLISH));
 
         bookShop.displayProducts();
 

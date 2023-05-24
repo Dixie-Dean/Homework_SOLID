@@ -1,6 +1,6 @@
 package customer;
 
-import products.Product;
+import product.Product;
 
 public interface Customer {
     void addToCart(Product product);

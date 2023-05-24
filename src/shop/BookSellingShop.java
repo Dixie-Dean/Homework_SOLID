@@ -1,7 +1,7 @@
 package shop;
 
-import products.Age;
-import products.Language;
+import product.Age;
+import product.Language;
 
 public interface BookSellingShop extends Shop {
     void filterBy(Language language);

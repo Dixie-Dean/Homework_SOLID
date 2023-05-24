@@ -1,6 +1,6 @@
 package customer;
 
-import products.Product;
+import product.Product;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;

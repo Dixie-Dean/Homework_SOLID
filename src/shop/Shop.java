@@ -1,8 +1,8 @@
 package shop;
 
-import managers.Manager;
+import manager.Manager;
 import order.Filterable;
-import products.Product;
+import product.Product;
 
 public interface Shop extends Filterable {
     void displayProducts();
